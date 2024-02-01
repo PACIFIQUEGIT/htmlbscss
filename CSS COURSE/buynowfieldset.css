@@ -1,0 +1,21 @@
+fieldset{
+    background-color: aqua;
+    font-weight: bold;
+    margin: 0 350px;
+    font-size: x-large;
+    margin-bottom: 100px;
+}
+#pdiv{
+    display: inline-block;
+    width: 30%;
+}
+input{
+    height: 50px;
+    width: 250px;
+}
+body{
+    background-color: beige;
+}
+.widthinput{
+    width: 540px;
+}

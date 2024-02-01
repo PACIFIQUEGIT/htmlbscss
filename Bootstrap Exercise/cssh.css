@@ -1,0 +1,12 @@
+.container{
+    color: rgb(79, 79, 110);
+    height: 600px;
+    width: 1000px;
+    margin: 12px auto;
+    
+}
+#col-2 {
+    background-color: white;
+    padding: 50px 20px;
+    margin-bottom: 36px;
+}

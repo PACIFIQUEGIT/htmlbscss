@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic form desing using HTML</title>
+    <script type="text/javascript" src="jav.js"></script>
+    <script type="text/javascript">
+        alert("Submit personal details.")
+    </script>
+</head>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic form design using HTML</h3>
+    <form onsubmit="subm()" action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br>
+            <label>
+                First name: <input type="text" required>
+            </label> <br><br>
+            <label>
+                Last name: <input type="text" required>
+            </label> <br><br>
+            <label>
+            Gender: 
+            <input type="radio" name="gender" value="Male" id="male"> 
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Female" id="female" required>
+            <label for="female">Female</label>  
+            </label> <br><br>
+            <label>
+                Email: <input type="text" required>
+            </label> <br><br>
+            <label>
+                Date of Birth: <input type="date" name="" id="" required>
+            </label> <br><br>
+            <label for="address">
+                Address: <br>
+                <textarea name="" id="address" cols="30" rows="5" placeholder="Address" required></textarea>
+            </label>
+             <br><br>
+            <input  type="submit">  
+        </fieldset>
+    </form>
+</body>
+</html>

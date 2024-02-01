@@ -1,0 +1,61 @@
+#s{
+    color: rgb(168, 165, 165);
+}
+#imga{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    padding-top: 0px;
+}
+button{
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    padding: 5px 15px;
+    margin-right: 20px;
+}
+#ula{
+    list-style-type: none;
+    font-size: larger;
+    text-align: left;
+}
+#lia{
+    color: black;
+    background-color: rgb(14, 163, 174);
+    margin: 20px;
+    padding: 10px;
+}
+#pa{
+    color: rgb(209, 128, 71);
+    font-style: italic;
+    font-size: 40px;
+}
+h2{
+    font-size: 50px;
+}
+#imgb{
+    width: 200px;
+    height: 220px;
+    float: left;
+    padding-top: 0px;
+}
+#sp{
+    color: rgb(26, 26, 164);
+}
+#ulb{
+    list-style-type: none;
+    font-size: larger;
+    text-align: center;
+}
+#lib{
+    display: inline;
+    margin: 10px 40px;
+}
+#spann{
+    color: black;
+    font-size: 46px;
+    margin: 10px;
+    font-weight: bold;
+}

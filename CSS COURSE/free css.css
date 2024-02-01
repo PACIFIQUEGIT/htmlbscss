@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+.div{
+    background-color: gray;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.2;
+    left: 0;
+    top: 80px;
+}
+div{
+    display: block;
+} 
+.nav{
+    width: 100%;
+    height: 5px;
+    padding: 0 240px;
+    background-color: white;
+    right: 0;
+    text-align: right;
+}
+#ul{
+    float: right;
+    color: gray;
+    padding-right: 0;
+    padding-bottom: 5px;
+    text-align: right;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+#ul, li, a{
+    display: inline;
+    text-decoration: none;
+    padding: 10px 0;
+    padding-left: 20px;
+    color: gray;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.gridcontainer{
+    width: 100%;
+    display: grid;
+    grid-template-areas: auto auto auto auto;
+    column-gap: 10px;
+    padding: 0 240px;
+}
+.griditema{
+    background-color: white;
+    height: 130px;
+    grid-area: 1 / 1 / span 1 / span 4;
+    margin: 40px 0;
+}
+.griditema span a{
+    opacity: 0.7;
+    font-size: 80px;
+    color: black;
+}
+.griditema img{
+    float: right;
+    padding-top: 50px;
+    width: 600px;
+    height: 120px;
+}
+.griditemb{
+    grid-area: 2 / 1 / span 1 / span 4;
+    height: 240px;
+    z-index: 1;
+}
+.griditmc{
+    grid-area: 3 / 1 / span 1 / span 1;
+    width: 100%;
+    font-weight: bolder;
+    opacity: 0.6;
+    font-size: 30px;
+    width: 400px;
+    margin-right: 0;
+}
+.griditemd{
+    grid-area: 3 / 2 / span 1 / span 1;
+    width: 100%;
+    background-color: rgb(230, 229, 229);
+    width: 430px;
+    margin-left: 5px;
+    padding-right: 20px;
+}
+.griditeme{
+    grid-area: 3 / 3 / span 1 / span 1;
+    width: 100%;
+    font-weight: bolder;
+    opacity: 0.6;
+    font-size: 20px;
+    width: 163px;
+}
+.griditemf{
+    grid-area: 3 / 4 / span 1 / span 1;
+    width: 100%;
+    background-color: rgb(230, 229, 229);
+    width: 163px;
+    margin-left: 0
+}
+.griditemg{
+    grid-area: 4 / 1 / span 1 / span 2;
+    padding: 0;
+    display: inline;
+    height: 420px;
+}
+.griditemh{
+    grid-area: 4 / 3 /span 2 / span 2;
+    padding-top: 20px;
+}
+.griditemi{
+    grid-area: 5 / 1 / span 1 / span 2;
+}
+.navv{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 70px;
+    text-align: center;
+    padding-top: 8px;
+    opacity: 0.8;   
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#ull li{
+    display: inline;
+    padding: auto;
+}
+#ull li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.im{
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.icon{
+    padding-top: 20px;
+    font-size: xx-large;
+}
+.aa{
+    border: solid 1px gray;
+    color: rgb(60, 60, 108);
+    margin-right: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.aa:hover{
+    background-color: rgb(60, 60, 108);
+    color: white;
+}
+.ab{
+    border: solid 1px gray;
+    color: rgb(21, 175, 235);
+    margin-right: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.ab:hover{
+    background-color: rgb(21, 175, 235);
+    color: white;
+}
+.ac{
+    border: solid 1px gray;
+    color: rgb(237, 74, 74);
+    margin-right: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.ac:hover{
+    background-color: rgb(237, 74, 74);
+    color: white;
+}
+.ad{
+    border: solid 1px gray;
+    color: rgb(190, 220, 231);
+    margin-right: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.ad:hover{
+    background-color: rgb(190, 220, 231);
+    color: white;
+}
+.ae{
+    border: solid 1px gray;
+    color: rgb(234, 83, 28);
+    margin-right: 15px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.ae:hover{
+    background-color: rgb(234, 83, 28);
+    color: white;
+}
+.imm{
+    border: solid 1px gray;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 372px;
+}
+.list{
+    padding: 10px 5px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.l li{
+    display: block;
+}
+#di{
+    display: inline-block;
+    width: 49%;
+}
+.griditemi ul li a{
+    color: rgb(56, 195, 249);
+    font-size: 22px;
+}
+.form{
+    margin: 0 240px;
+    height: 200px;
+    width: 850px;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+.for{
+    width: 900px;
+    text-align: left;
+    height: 110px;
+    padding-top: 20px;
+}
+.sp{
+    width: 405px;
+    margin-right: 15px;
+}
+.aba{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px;
+}
+.abb{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px;
+}
+.p a{
+    color: rgb(56, 195, 249);
+    font-size: 25px;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+footer{
+    background-color: gainsboro;
+    height: 100px;
+}
+.foot{
+    padding: 0 240px;
+    height: 100px;
+}
+.foot .span{
+    float: right;
+}
+.foot p{
+    padding-top: 20px;
+    color: gray;
+}
+.for .pp{
+    height: 80px;
+}
+.pp button{
+    margin-right: 20px;
+    height: 80px;
+    width: 400px;
+    border: solid 1px transparent;
+}
